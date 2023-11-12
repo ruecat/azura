@@ -20,6 +20,15 @@
   <br>
 </div>
 
+## Features
+Here's features that you get out of the box:
+
+- [x] Fully dockerized bot, working even on Raspberry/Orange Pi
+- [x] Unique modules, for example - [Reports System](https://github.com/ruecat/azura/blob/main/azura/modules/Reports.py)
+- [x] Scam-links detection with no false-positives
+- [x] Redis database implementation to provide the best performance and sync for user and developer respectively 😎
+- [ ] Spawn catgirls irl
+
 ## Prerequisites
 - [Docker](https://github.com/docker)
 - [Docker-Compose](https://github.com/docker/compose)
