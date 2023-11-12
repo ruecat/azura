@@ -11,7 +11,7 @@
   </p>
   <br>
   <p align="center">
-    <img src="https://img.shields.io/github/downloads/ruecat/azura/total?color=green&style=for-the-badge"/>
+    <img src="https://img.shields.io/github/downloads/ruecat/azura/total?style=for-the-badge&label=Downloads&color=52489C">
     <a href="https://discord.gg/VHUYnFB4MS"><br>
     <img src="https://app.codacy.com/project/badge/Grade/5d0e1e2498f8443890624037efa6a2b0"/><br>
       <img src="https://dcbadge.vercel.app/api/server/VHUYnFB4MS"/>
