@@ -20,6 +20,9 @@
 </div>
 
 ## Prerequisites
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/db51540b9e0c49aea4008e45191b4421)](https://app.codacy.com/gh/ruecat/azura?utm_source=github.com&utm_medium=referral&utm_content=ruecat/azura&utm_campaign=Badge_Grade)
+
 - [Docker](https://github.com/docker)
 - [Docker-Compose](https://github.com/docker/compose)
 - [Discord-Bot Token](https://discord.com/developers/applications)
