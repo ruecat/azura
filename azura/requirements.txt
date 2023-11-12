@@ -1,0 +1,8 @@
+PyNaCl
+aiodns
+orjson
+nextcord
+nextcord[speed]
+redis
+rgbprint
+docker

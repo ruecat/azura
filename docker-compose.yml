@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  azura:
+    build: azura
+    container_name: azura-bot
+    restart: no
+    volumes:
+      - ./AzuraBot:/app
+    hostname: azura-dockerized
+    environment:
+      # Necessary, your Discord Bot token, you can get it from Discord Developers page
+      - TOKEN=yourtoken
+      # Optional (If not set, cog may run in RestrictedMode)
+      #- BOOSTER_ROLEID=
+    depends_on:
+      - azuraredis
+  azuraredis:
+    image: redis:latest
+    container_name: azura-db
+    restart: always
+    ports:
+      - '6379:6379'
