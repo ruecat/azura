@@ -104,6 +104,7 @@ class reports(commands.Cog):
         description_localizations={
             Locale.ru: "Пожаловаться на участника/модератора",
         },
+        # TO-DO: Optimize code and allow in all servers
         guild_ids=[1115253435210666014],
     )
     async def report(self, interaction: nextcord.Interaction, member: nextcord.Member = None):
