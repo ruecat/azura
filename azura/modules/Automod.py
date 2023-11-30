@@ -31,12 +31,12 @@ class automod(commands.Cog):
     async def on_message(self, message):
         if self.banned_links is None:
             return
-        # False-positive fixer (Members can get banned if they use "Nitro emoji bypass" thing
+        # False-positive fixer (Members can get banned if they use "Nitro emoji bypass" thing)
         elif 'https://cdn.discordapp.com/' in message.content:
             return
         # Ban any user that post scam-link(s)
         elif any(i in message.content for i in self.banned_links):
-            # send to specific channel
+            # TO-DO: set environment: send to specific channel
             channel = self.bot.get_channel(1160602587662405723)
             modlog = nextcord.Embed(title=f'{message.author.name} получил молотком по голове 🔨', color=0xff0000)
             modlog.add_field(name='Причина', value='AzuraSL: Фишинг')

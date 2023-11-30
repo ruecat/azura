@@ -18,7 +18,7 @@ class smod(commands.Cog):
             Locale.ru: "Выгнать участника -_-",
         },
     )
-    #@application_checks.has_guild_permissions(kick_members=True)
+    @application_checks.has_guild_permissions(kick_members=True)
     @application_checks.guild_only()
     async def kick(self, interaction: Interaction, member: nextcord.Member, reason: str):
         if member.id == interaction.user.id:

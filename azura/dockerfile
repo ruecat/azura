@@ -1,7 +1,6 @@
-FROM python:3.10-slim-buster
+FROM python:3.13-rc-slim-bookworm
 WORKDIR /core
-RUN apt-get -y update --fix-missing
-RUN apt-get -y install python3-dev
+RUN apt update -y && apt upgrade -y && apt install cargo -y
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 COPY . .

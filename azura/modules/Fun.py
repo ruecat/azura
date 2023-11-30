@@ -4,6 +4,7 @@ import nextcord
 from nextcord.ext import commands
 from nextcord import Locale
 
+
 class sfun(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -12,6 +13,7 @@ class sfun(commands.Cog):
                             name_localizations={Locale.ru: "вопрос"})
     async def questions(self, interaction: nextcord.Interaction):
         """No actions can be done here -_-"""
+
     @questions.subcommand(
         name="ben",
         name_localizations={

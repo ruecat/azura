@@ -6,6 +6,7 @@ class descriptor(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    # TO-DO: Add /help command
     @commands.Cog.listener()
     async def on_connect(self):
         await self.bot.change_presence(status=nextcord.Status.idle,

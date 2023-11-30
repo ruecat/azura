@@ -8,9 +8,9 @@ class triggers(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        wmsg = nextcord.Embed(title=f"Добро пожаловать на {member.guild.name} <a:oreo_catJAM:1118539317032255508>",
-                              description="Внимательно прочитай наши правила и располагайся "
-                                          "покомфортнее!",
+        # TO-DO: Add placeholder as environment variable
+        wmsg = nextcord.Embed(title=f"Welcome to {member.guild.name} <a:oreo_catJAM:1118539317032255508>",
+                              description="{placeholder}",
                               color=nextcord.Color.blurple())
         await member.send(embed=wmsg)
 

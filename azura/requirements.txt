@@ -3,6 +3,6 @@ aiodns
 orjson
 nextcord
 nextcord[speed]
-redis
+aioredis
+hiredis
 rgbprint
-docker

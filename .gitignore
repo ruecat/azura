@@ -1,6 +1,5 @@
 # Azura unverified (unsafe) code
-*.disabled
-/modules/playground.py
+*-test.py
 # Disable sensitive information
 /dev-compose.yml
 # Byte-compiled / optimized / DLL files
