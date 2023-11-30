@@ -29,6 +29,12 @@ Here's features that you get out of the box:
 - [x] Redis database implementation to provide the best performance and sync for user and developer respectively 😎
 - [ ] Spawn catgirls irl
 
+## Roadmap
+- [ ] Fix vulnerabilities
+- [ ] Integrate LocalAI module
+- [ ] Improve moderation and automoderation modules
+- [ ] Simplify installation and write ELI5 docs
+
 ## Prerequisites
 - [Docker](https://github.com/docker)
 - [Docker-Compose](https://github.com/docker/compose)
