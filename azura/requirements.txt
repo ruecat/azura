@@ -6,3 +6,5 @@ nextcord[speed]
 aioredis
 hiredis
 rgbprint
+transformers
+torch
