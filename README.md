@@ -3,18 +3,11 @@
   <a href="">
     <img src="res/github/azura-readme.png" width="200" height="200">
   </a>
-  <h1>Azura</h1>
+  <h1>Azura [Archived]</h1>
   <p>
-    <b>Embrace the meow-nificent power of Azura, the cat-tastic Discord bot 😻</b><br>
-    <b>🚧 Project is still WIP 🚧</b><br>
-    <b>🐈 Feel free to contribute!</b><br>
+    <b>We are happy to announce that Azura is joining MIKO*PROJECT!</b><br>
+    <b>🚧 Azura is archived now. Huge thanks for your contributions!</b><br>
   </p>
-  <br>
-  <p align="center">
-    <img src="https://img.shields.io/github/downloads/ruecat/azura/total?style=for-the-badge&label=Downloads&color=52489C">
-    <a href="https://discord.gg/VHUYnFB4MS"><br>
-    <img src="https://app.codacy.com/project/badge/Grade/5d0e1e2498f8443890624037efa6a2b0"/><br>
-      <img src="https://dcbadge.vercel.app/api/server/VHUYnFB4MS"/>
     </a>
   </p>
   <br>
@@ -79,3 +72,4 @@ python3 launch.py
 | `BOOSTER_ROLEID` |                         Boosters' role, to give more experience and money                         |                      Optional. **Dependency:** Ecomomy and Levels                       |     None      |      123456789010111213       |
 | `BOOSTER_MONEY`  |                        How much **_money_** booster will get per message.                         |                      Optional. **Dependency:** Ecomomy and Levels                       |       5       | Integer Values: 1 2 3 4, etc  |
 |  `BOOSTER_EXP`   |                      How much _**experience**_ booster will get per message.                      |                      Optional. **Dependency:** Ecomomy and Levels                       |       5       | Integer Values: 1 2 3 4, etc  |
+</del>
